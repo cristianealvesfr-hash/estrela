@@ -31,7 +31,7 @@ export function About() {
               Hoje é a referência do nordeste quando o assunto é locação de máquinas Pesadas e Pavimentação Asfáltica.
             </p>
             <p className="text-lg text-chumbo/80 leading-relaxed font-medium mb-6">
-              Hoje com nova Administração a diretora Rejanny Braga, visa voos maiores e pretende ainda mais destaque no mercado com excelentes serviços prestados. Um dos diferenciais da empresa é que todas as máquinas são próprias, conseguindo transmitir maior credibilidade na execução dos serviços. Utilizamos os mais modernos equipamentos para realizar os projetos.
+              Hoje, sob nova Administração, a Construtora Estrela visa voos ainda maiores e busca o destaque contínuo no mercado através da excelência nos serviços prestados. Um dos nossos grandes diferenciais é que todas as máquinas são próprias, o que nos permite transmitir maior segurança, agilidade e credibilidade na execução de cada obra. Utilizamos equipamentos modernos e de ponta para a realização de grandes projetos.
             </p>
             <div className="border-l-4 border-amarelo pl-6 mt-10 py-2">
               <p className="text-2xl md:text-3xl text-chumbo font-black italic tracking-wide">
