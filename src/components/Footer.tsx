@@ -36,9 +36,11 @@ export function Footer({ onOpenLegal }: FooterProps) {
             <h4 className="text-amarelo font-bold uppercase tracking-wider mb-6">Links Rápidos</h4>
             <ul className="space-y-4">
               <li><a href="#home" className="text-cinza-claro/70 hover:text-amarelo hover:translate-x-2 inline-block transition-all text-sm">Início</a></li>
+              <li><a href="#servicos" className="text-cinza-claro/70 hover:text-amarelo hover:translate-x-2 inline-block transition-all text-sm">Serviços</a></li>
+              <li><a href="#servicos" className="text-cinza-claro/70 hover:text-amarelo hover:translate-x-2 inline-block transition-all text-sm">Locação de Máquinas</a></li>
               <li><a href="#sobre" className="text-cinza-claro/70 hover:text-amarelo hover:translate-x-2 inline-block transition-all text-sm">Sobre Nós</a></li>
-              <li><a href="#servicos" className="text-cinza-claro/70 hover:text-amarelo hover:translate-x-2 inline-block transition-all text-sm">Nossa Expertise</a></li>
               <li><a href="#portfolio" className="text-cinza-claro/70 hover:text-amarelo hover:translate-x-2 inline-block transition-all text-sm">Nosso Trabalho</a></li>
+              <li><a href="#contato" className="text-cinza-claro/70 hover:text-amarelo hover:translate-x-2 inline-block transition-all text-sm">Contato</a></li>
             </ul>
           </div>
 

@@ -23,17 +23,17 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section className="py-20 md:py-32 bg-chumbo-escuro relative overflow-hidden">
+    <section className="py-16 md:py-24 bg-chumbo-escuro relative overflow-hidden">
       {/* Background Decor */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-amarelo opacity-5 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
       
       <div className="container mx-auto px-4 md:px-8 relative z-10">
-        <div className="text-center max-w-3xl mx-auto mb-20">
+        <div className="text-center max-w-3xl mx-auto mb-12">
           <motion.span 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-amarelo font-bold tracking-widest uppercase text-sm mb-4 block"
+            className="text-amarelo font-bold tracking-widest uppercase text-xs mb-3 block"
           >
             Prova Social
           </motion.span>
@@ -42,7 +42,7 @@ export function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-3xl md:text-5xl font-black text-branco leading-tight mb-6"
+            className="text-2xl md:text-3xl font-black text-branco leading-tight mb-4"
           >
             O QUE DIZEM NOSSOS PARCEIROS
           </motion.h2>
@@ -50,11 +50,11 @@ export function Testimonials() {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="w-20 h-1 bg-amarelo mx-auto"
+            className="w-16 h-1 bg-amarelo mx-auto"
           ></motion.div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((item, index) => (
             <motion.div
               key={index}
@@ -62,28 +62,24 @@ export function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="bg-chumbo p-8 md:p-10 border border-branco/5 rounded-sm relative group hover:border-amarelo/30 transition-colors duration-500"
+              className="bg-chumbo p-6 md:p-8 border border-branco/5 rounded-sm relative group hover:border-amarelo/30 transition-colors duration-500"
             >
-              {/* Giant Quote Icon */}
-              <div className="text-amarelo/10 md:text-amarelo/20 text-6xl md:text-8xl font-serif absolute top-2 left-4 md:top-4 md:left-6 pointer-events-none select-none group-hover:text-amarelo/30 transition-colors duration-500">
-                "
-              </div>
+              {/* Small quote accent */}
+              <span className="text-amarelo text-2xl font-serif leading-none block mb-3">"</span>
               
-              <div className="relative z-10 mt-4 md:mt-0">
-                <p className="text-branco/80 text-lg md:text-xl font-medium leading-relaxed mb-8 italic">
-                  "{item.quote}"
-                </p>
-                <div className="border-t border-branco/10 pt-6">
-                  <strong className="block text-amarelo font-bold uppercase tracking-wider text-sm mb-1">
-                    {item.name}
-                  </strong>
-                  <span className="block text-branco/60 text-sm">
-                    {item.role}
-                  </span>
-                  <span className="block text-branco/40 text-xs mt-1">
-                    {item.company}
-                  </span>
-                </div>
+              <p className="text-branco/80 text-sm md:text-base font-medium leading-relaxed mb-6 italic">
+                {item.quote}
+              </p>
+              <div className="border-t border-branco/10 pt-4">
+                <strong className="block text-amarelo font-bold uppercase tracking-wider text-xs mb-1">
+                  {item.name}
+                </strong>
+                <span className="block text-branco/60 text-xs">
+                  {item.role}
+                </span>
+                <span className="block text-branco/40 text-xs mt-1">
+                  {item.company}
+                </span>
               </div>
             </motion.div>
           ))}
