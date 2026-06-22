@@ -3,7 +3,7 @@ export function WhatsAppButton() {
   const instagramUrl = "https://www.instagram.com/construtoraestrela1?igsh=NHZ0bWE2djh0OWRw";
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4 origin-bottom-right">
+    <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-3 origin-bottom-right">
       {/* Instagram Button */}
       <a
         href={instagramUrl}
@@ -15,7 +15,7 @@ export function WhatsAppButton() {
         <img 
           src="/imagens/Instagram%20Contrutora%20estrela.png" 
           alt="Instagram" 
-          className="w-20 md:w-24 h-auto drop-shadow-2xl"
+          className="w-12 md:w-14 h-auto drop-shadow-2xl"
         />
       </a>
 
@@ -30,7 +30,7 @@ export function WhatsAppButton() {
         <img 
           src="/imagens/whatsapp%20construtora%20estrela.png" 
           alt="WhatsApp" 
-          className="w-20 md:w-24 h-auto drop-shadow-2xl"
+          className="w-12 md:w-14 h-auto drop-shadow-2xl"
         />
       </a>
     </div>

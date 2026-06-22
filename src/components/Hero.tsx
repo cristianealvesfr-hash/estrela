@@ -33,7 +33,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
-            className="text-2xl md:text-3xl lg:text-4xl text-branco leading-relaxed mb-6 drop-shadow-xl max-w-3xl font-light"
+            className="text-xl md:text-2xl lg:text-3xl text-branco leading-relaxed mb-6 drop-shadow-xl max-w-3xl font-light"
           >
             Excelência em <span className="font-black text-amarelo text-shadow-sm tracking-wide">Pavimentação Asfáltica</span> e <strong className="font-black text-branco tracking-wide">Maquinário Pesado</strong> de Alta Performance para grandes empreendimentos.
           </motion.h1>

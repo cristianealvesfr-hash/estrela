@@ -38,12 +38,12 @@ export function CookieConsent({ onOpenPrivacyPolicy }: CookieConsentProps) {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="fixed bottom-0 left-0 w-full z-40 bg-chumbo border-t-4 border-amarelo shadow-[0_-10px_40px_rgba(0,0,0,0.3)]"
         >
-          <div className="container mx-auto px-4 py-6 md:py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="container mx-auto px-4 py-3 md:py-4 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-branco md:w-2/3">
-              <h3 className="text-xl font-bold mb-2 flex items-center gap-2">
-                <span className="text-amarelo text-2xl">🛡️</span> Seu Consentimento (LGPD)
+              <h3 className="text-sm font-bold mb-1 flex items-center gap-2">
+                <span className="text-amarelo text-base">🛡️</span> Seu Consentimento (LGPD)
               </h3>
-              <p className="text-sm md:text-base text-branco/80 leading-relaxed">
+              <p className="text-xs md:text-sm text-branco/80 leading-relaxed">
                 Utilizamos cookies e tecnologias semelhantes para aprimorar a sua experiência de navegação, 
                 personalizar conteúdo e analisar nosso tráfego. Ao continuar navegando na plataforma corporativa 
                 da Construtora Estrela, você concorda com o uso de cookies essenciais. Para mais informações 
