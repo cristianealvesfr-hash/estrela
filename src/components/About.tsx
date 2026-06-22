@@ -30,8 +30,14 @@ export function About() {
             <p className="text-lg text-chumbo/80 leading-relaxed mb-6 font-bold">
               Hoje é a referência do nordeste quando o assunto é locação de máquinas Pesadas e Pavimentação Asfáltica.
             </p>
+            <p className="text-lg text-chumbo/80 leading-relaxed font-medium mb-4">
+              A Construtora Estrela mantém um compromisso permanente com a excelência, a inovação e a qualidade, consolidando-se como referência no mercado de pavimentação asfáltica e locação de máquinas pesadas.
+            </p>
+            <p className="text-lg text-chumbo/80 leading-relaxed font-medium mb-4">
+              Com uma frota totalmente própria e equipada com tecnologia de ponta, garantimos total controle operacional, maior agilidade e máxima segurança em todas as etapas da obra.
+            </p>
             <p className="text-lg text-chumbo/80 leading-relaxed font-medium mb-6">
-              A Construtora Estrela mantém um compromisso permanente com a excelência, a inovação e a qualidade, consolidando-se como referência no mercado de pavimentação asfáltica e locação de máquinas pesadas. Com uma frota totalmente própria e equipada com tecnologia de ponta, garantimos total controle operacional, maior agilidade e máxima segurança em todas as etapas da obra. Nossa estrutura robusta, aliada à experiência técnica e ao compromisso com resultados, nos permite executar projetos de diferentes portes com eficiência, credibilidade e alto padrão de qualidade.
+              Nossa estrutura robusta, aliada à experiência técnica e ao compromisso com resultados, nos permite executar projetos de diferentes portes com eficiência, credibilidade e alto padrão de qualidade.
             </p>
             <div className="border-l-4 border-amarelo pl-6 mt-10 py-2">
               <p className="text-2xl md:text-3xl text-chumbo font-black italic tracking-wide">
