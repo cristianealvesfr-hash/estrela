@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-branco: #FFFFFF;
+  --color-cinza-claro: #F3F4F6;
+  --color-chumbo: #2D323C;
+  --color-chumbo-escuro: #1F2937;
+  --color-amarelo: #EAB308;
+  --color-amarelo-hover: #CA8A04;
+  --font-inter: 'Inter', sans-serif;
+  --font-space: 'Space Grotesk', sans-serif;
+  --animate-ring: ring 2s ease-in-out infinite;
+}
+
+@keyframes ring {
+  0%, 100% { transform: rotate(0deg); }
+  5%, 15%, 25% { transform: rotate(15deg) scale(1.1); }
+  10%, 20% { transform: rotate(-15deg) scale(1.1); }
+  30% { transform: rotate(0deg) scale(1); }
+}
+
+/* Base resets & styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: var(--color-branco);
+  color: var(--color-chumbo);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  
+  /* Proteção contra cópia */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Permitir digitação e seleção em formulários caso existam */
+input, textarea {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-space);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+::selection {
+  background-color: var(--color-amarelo);
+  color: var(--color-chumbo-escuro);
+}
